@@ -1,0 +1,12 @@
+# Use the official ArangoDB image from Docker Hub
+FROM arangodb/arangodb:latest
+
+# Expose the port you want to use (e.g., 8529)
+EXPOSE 8529
+
+# Environment variables to set ArangoDB port and binding address
+ENV ARANGO_NO_AUTH 1
+#ENV ARANGO_ROOT_PASSWORD root
+
+# Start ArangoDB with custom options (e.g., bind to all interfaces)
+CMD ["arangod", "--server.endpoint", "tcp://0.0.0.0:8529"]
