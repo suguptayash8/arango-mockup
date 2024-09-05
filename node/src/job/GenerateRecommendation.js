@@ -26,10 +26,11 @@ const loadIntialData = (function(){
 })();
 
 
-let generateSiteLevelAnalyzers = function(){
-    analyzers.forEach(analyzer =>{
+let generateSiteLevelAnalyzers = async function(){
+
+    for(let analyzer of analyzers){
         const tenantSitedata = loadIntialData();
-        Object.keys(tenantSitedata).forEach(function(tid) {
+        for(let tid of Object.keys(tenantSitedata)){
             let recommenderPath;
             let recommenderObjs;
 
@@ -45,7 +46,7 @@ let generateSiteLevelAnalyzers = function(){
             let _key = `${sharedAttr}:${generateRandomNumber(7000000000,7999999999)}`;
             let _id = `aiops_optimizer/${_key}`;
 
-            tenantSitedata[tid].forEach(siteId=>{
+            for(let siteId of tenantSitedata[tid]){
                 let analyzer_id = `${tid}_${siteId}_${analyzer}_39751_0_${recommenderObjs.created}` ;
 
                 let override = {
@@ -63,19 +64,21 @@ let generateSiteLevelAnalyzers = function(){
                 updateSiteLevelRecommender(mockRecomData, siteId, `name-${siteId}` );
 
                 try{
-                    populateCollection(mockRecomData);
+                    await populateCollection(mockRecomData);
                 }catch(e){
         
                 }
-            })
-        });
-    })
+            }
+        }
+    }
 }
 
-let generateNocLevelAnalyzers = function(){
-    analyzers.forEach(analyzer =>{
+let generateNocLevelAnalyzers = async function(){
+
+    for(const analyzer of analyzers){
         const tenantSitedata = loadIntialData();
-        Object.keys(tenantSitedata).forEach(function(tid) {
+
+        for(const tid of Object.keys(tenantSitedata)){
             let siteId = "-1";
             let recommenderPath; 
             let recommenderObjs;
@@ -105,12 +108,12 @@ let generateNocLevelAnalyzers = function(){
             mockRecomData = updateNocLevelRecommender(mockRecomData, tenantSitedata[tid]);
 
             try{
-                populateCollection(mockRecomData);
+                await populateCollection(mockRecomData);
             }catch(e){
     
             }
-        });
-    })
+        }
+    }
 }
 
 let updateSiteLevelRecommender = function(obj, siteId, siteName, isUpdateRequired = false)
@@ -148,9 +151,7 @@ let updateNocLevelRecommender = function(obj, siteIds)
                         'site_id': siteId
                     })
                 });
-
                 obj[k] = impactedSites;
-                console.log('key updated for impactedSites is ' + obj[k]);
             }else if(k.includes('impacted_devices_per_site')){
                 let impacteimpactedDevicesPerSites =[];
                 siteIds.forEach(siteId=>{

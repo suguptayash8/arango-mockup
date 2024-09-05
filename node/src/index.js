@@ -6,7 +6,21 @@ const {generateNocLevelAnalyzers, generateSiteLevelAnalyzers } = require('./job/
 
 //a--> [115-->[711,713], 315-->[713,719]]
 
-generateNocLevelAnalyzers();
-generateSiteLevelAnalyzers();
-setInterval(generateNocLevelAnalyzers, 24*60*60*1000);
-setInterval(generateSiteLevelAnalyzers, 24*60*60*1000);
+
+
+
+const generateInsights = async function(){
+await generateNocLevelAnalyzers();
+await generateSiteLevelAnalyzers();
+setInterval(async ()=>{
+    await generateNocLevelAnalyzers();
+    await generateSiteLevelAnalyzers();
+}, 24*60*60*1000);
+}
+
+
+
+
+module.exports = {
+    generateInsights
+}

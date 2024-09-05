@@ -1,18 +1,20 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
-const insert = require('../db/crud/insert/recommender.js')
+const {generateInsights} = require('../index.js')
+
+app.use(cors());
 
 app.use(express.json());
-const port = 3000;
+const port = 8060;
 
 app.use(express.urlencoded({
     extended: true
 }));
 
-app.post('/recommender/add', (req, res) => {
-  const obj = req.body;
-  const { count, recoId } = obj;
-  insert(recoId, count, obj);
+app.post('/api/generate-insights', (req, res) => {
+  generateInsights();
+  res.sendStatus(200);
 })
 
 app.listen(port, () => {

@@ -1,0 +1,41 @@
+/* Header Styles */
+.header {
+    background-color: #007bff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .header-title {
+      font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header-title {
+      font-size: 24px;
+    }
+  }
+  
