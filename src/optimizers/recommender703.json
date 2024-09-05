@@ -1,0 +1,80 @@
+{
+  "_key": "52d5f810:1534103726",
+  "_id": "aiops_optimizer/52d5f810:1534103726",
+  "_rev": "_iYECOKq--_",
+  "analyzer_id": "52d5f8103c0711ee93a83e466bf268e7_-1_703_156459_0_1724991684800",
+  "analyzer_type_id": "703",
+  "available_firmware_recommendation": [
+    {
+      "recommended_firmware_cx": "Firmware Recommendation available for AOS-CX Switch(es). Select the recommended firmware version from the dropdown in Aruba Central classic view to apply the recommended upgrade to your switch(es)."
+    }
+  ],
+  "created": 1724991684800,
+  "description": "New firmware recommendation available for 17 switch(es). These upgrades provide new features and bug fixes.",
+  "firmware_recommendation_summary": [
+    {
+      "model": "6405 v2 Chassis (R0X24C) (CX)",
+      "current_firmware": "10.10.1040",
+      "recommended_firmware": "10.13.1030",
+      "no_of_devices": 9,
+      "recommendation_reason": "Minimizing firmware security vulnerabilities"
+    },
+    {
+      "model": "6410 v2 Chassis (R0X25C) (CX)",
+      "current_firmware": "10.10.1040",
+      "recommended_firmware": "10.13.1030",
+      "no_of_devices": 4,
+      "recommendation_reason": "Minimizing firmware security vulnerabilities"
+    },
+    {
+      "model": "6405 v2 Chassis (R0X24C) (CX)",
+      "current_firmware": "10.10.1110",
+      "recommended_firmware": "10.13.1031",
+      "no_of_devices": 2,
+      "recommendation_reason": "Major Firmware Release available"
+    },
+    {
+      "model": "6300M 48G CL4 PoE 4SFP56 Swch (JL661A) (CX)",
+      "current_firmware": "10.10.1040",
+      "recommended_firmware": "10.13.1031",
+      "no_of_devices": 2,
+      "recommendation_reason": "Minimizing firmware security vulnerabilities"
+    }
+  ],
+  "impacted_clients_per_site": [
+    {}
+  ],
+  "impacted_devices_per_site": [
+    {
+      "name": "Afron_test_123",
+      "site_id": "628935307",
+      "count": 4
+    },
+    {
+      "name": "Afron-NISite2",
+      "site_id": "121117268",
+      "count": 13
+    }
+  ],
+  "impacted_sites": [
+    {
+      "name": "Afron_test_123",
+      "site_id": "628935307"
+    },
+    {
+      "name": "Afron-NISite2",
+      "site_id": "121117268"
+    }
+  ],
+  "name": "Switch Firmware Recommendation",
+  "no_of_devices_w_recommendation": 17,
+  "no_of_total_devices": 17,
+  "prod_cluster": "afron",
+  "purge_after": 1727756484,
+  "schema_version": "v2",
+  "shard_attr": "52d5f810",
+  "site": "None",
+  "site_id": "-1",
+  "tenant_id": "52d5f8103c0711ee93a83e466bf268e7",
+  "timestamp": 1724991535990
+}

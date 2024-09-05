@@ -1,0 +1,123 @@
+{
+    "_key": "8be5cb9a:14991228714",
+    "_id": "aiops_optimizer/8be5cb9a:14991228714",
+    "_rev": "_iXXac2q---",
+    "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_-1_702_179792_0_1724804529026",
+    "analyzer_type_id": "702",
+    "created": 1724804529026,
+    "description": "New firmware recommendation available forxa047 access points. These upgrades provide xa0new xa0features and bug fixes.",
+    "firmware_recommendation_summary": [
+      {
+        "model": "AP-505",
+        "current_firmware": "8.7.1.6_81786",
+        "recommended_firmware": "8.10.0.11_89676",
+        "no_of_devices": 3,
+        "recommendation_reason": "Current firmware has security advisory"
+      },
+      {
+        "model": "AP-555",
+        "current_firmware": "8.11.1.1_87111",
+        "recommended_firmware": "8.12.0.1_89864",
+        "no_of_devices": 1,
+        "recommendation_reason": "Current firmware has security advisory"
+      },
+      {
+        "model": "AP-515",
+        "current_firmware": "8.7.1.6_81786",
+        "recommended_firmware": "8.10.0.11_89676",
+        "no_of_devices": 3,
+        "recommendation_reason": "Current firmware has security advisory"
+      },
+      {
+        "model": "AP-505",
+        "current_firmware": "8.10.0.7_87023",
+        "recommended_firmware": "8.10.0.11_89676",
+        "no_of_devices": 7,
+        "recommendation_reason": "Current firmware has security advisory"
+      },
+      {
+        "model": "AP-315",
+        "current_firmware": "8.11.0.0_85179",
+        "recommended_firmware": "8.12.0.1_89864",
+        "no_of_devices": 9,
+        "recommendation_reason": "Current firmware has security advisory"
+      },
+      {
+        "model": "AP-315",
+        "current_firmware": "8.11.1.1_87111",
+        "recommended_firmware": "8.12.0.1_89864",
+        "no_of_devices": 9,
+        "recommendation_reason": "Current firmware has security advisory"
+      },
+      {
+        "model": "AP-535",
+        "current_firmware": "8.11.1.1_87111",
+        "recommended_firmware": "8.12.0.1_89864",
+        "no_of_devices": 15,
+        "recommendation_reason": "Current firmware has security advisory"
+      }
+    ],
+    "impacted_clients_per_site": [
+      {}
+    ],
+    "impacted_devices_per_site": [
+      {
+        "name": "Phoenix",
+        "count": 8
+      },
+      {
+        "name": "Beaverton",
+        "count": 16
+      },
+      {
+        "name": "Boise",
+        "count": 1
+      },
+      {
+        "name": "Orange",
+        "count": 3
+      },
+      {
+        "name": "Tacoma",
+        "count": 3
+      },
+      {
+        "name": "Riverside",
+        "count": 3
+      },
+      {
+        "name": "Salem",
+        "count": 4
+      },
+      {
+        "name": "Tucson",
+        "count": 2
+      },
+      {
+        "name": "Pleasanton",
+        "count": 7
+      }
+    ],
+    "impacted_sites": [
+      "Riverside",
+      "Tacoma",
+      "Tucson",
+      "Orange",
+      "Pleasanton",
+      "Phoenix",
+      "Salem",
+      "Beaverton",
+      "Boise"
+    ],
+    "name": "Access Point Firmware Recommendation Available",
+    "no_of_devices_w_recommendation": 47,
+    "no_of_total_devices": 47,
+    "prod_cluster": "jedi",
+    "purge_after": 1727569329,
+    "schema_version": "v1",
+    "shard_attr": "8be5cb9a",
+    "site": "None",
+    "site_id": "-1",
+    "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+    "timestamp": 1724806800000
+}

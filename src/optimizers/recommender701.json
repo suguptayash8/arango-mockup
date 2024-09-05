@@ -1,0 +1,57 @@
+{
+    "_key": "84532392:14980784250",
+    "_id": "aiops_optimizer/84532392:14980784250",
+    "_rev": "_iXXakdG--A",
+    "analyzer_id": "84532392b41e11ee9cddae4358c8f34c_-1_701_162271_10_1724804536817",
+    "analyzer_type_id": "701",
+    "created": 1724804536817,
+    "description": "Increasing the Probe and Authentication thresholds to the recommended values will decrease the impact of the unintended outdoor/passer-by clients by up to 72.0% and improve the experience for intended users.",
+    "iap_probe_config_impact_per_devicetype": [],
+    "iap_probe_config_impact_per_ssid": [
+      {
+        "ssid": "norman-net",
+        "total_outside_minutes": 1291,
+        "outside_minutes_remaining": 360,
+        "outside_minutes_remaining_percentage": 28,
+        "total_outside_minutes_log": 7.1631723908466425,
+        "outside_minutes_remaining_log": 5.886104031450156
+      }
+    ],
+    "iap_probe_config_recommendation": [
+      {
+        "ssid": "norman-net",
+        "current_probe_snr_threshold": 0,
+        "current_auth_snr_threshold": 0,
+        "recommended_snr_threshold": 16
+      }
+    ],
+    "impacted_clients_per_site": [
+      {
+        "name": "Afron_test_123",
+        "site_id": "628935307",
+        "count": 3
+      }
+    ],
+    "impacted_devices_per_site": [
+      {
+        "name": "Afron_test_123",
+        "site_id": "628935307",
+        "count": 2
+      }
+    ],
+    "impacted_sites": [
+      {
+        "name": "Afron_test_123",
+        "site_id": "628935307"
+      }
+    ],
+    "name": "Outdoor Clients Impacting WLAN Performance",
+    "prod_cluster": "jedi",
+    "purge_after": 1727569336,
+    "schema_version": "v1",
+    "shard_attr": "84532392",
+    "site": "-1",
+    "site_id": "-1",
+    "tenant_id": "84532392b41e11ee9cddae4358c8f34c",
+    "timestamp": 1724806800000
+  }

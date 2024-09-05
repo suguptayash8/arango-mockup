@@ -1,0 +1,451 @@
+{
+    "_key": "8be5cb9a:15199249569",
+    "_id": "aiops_optimizer/8be5cb9a:15199249569",
+    "_rev": "_ia_cm0m--J",
+    "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_-1_718_188971_0_1725509313378",
+    "analyzer_type_id": "718",
+    "created": 1725509313378,
+    "description": "Time to onboard delayed for all WLANs. Majority clients took upto 18.0 seconds to connect in last 24 hours and upto 17.0 seconds to connect in last 7 days.",
+    "impacted_clients_per_site": [
+      {
+        "name": "CNX-AIOPS-Demo",
+        "site_id": "972452446",
+        "count": 21
+      }
+    ],
+    "impacted_devices_per_site": [
+      {
+        "name": "CNX-AIOPS-Demo",
+        "site_id": "972452446",
+        "count": 2
+      }
+    ],
+    "impacted_sites": [
+      {
+        "name": "CNX-AIOPS-Demo",
+        "site_id": "972452446"
+      }
+    ],
+    "name": "Wireless Client Connectivity Experience",
+    "prod_cluster": "jedi",
+    "purge_after": 1728274113,
+    "rollup": [
+      {
+        "rollup_time_window": "24hrs",
+        "time_to_connect": [
+          {
+            "bin_start": "9",
+            "bin_end": "10",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 81
+          },
+          {
+            "bin_start": "4",
+            "bin_end": "5",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 780
+          },
+          {
+            "bin_start": "0",
+            "bin_end": "1",
+            "good_connections_cnt": 1,
+            "bad_connections_cnt": 0
+          },
+          {
+            "bin_start": "3",
+            "bin_end": "4",
+            "good_connections_cnt": 33,
+            "bad_connections_cnt": 0
+          },
+          {
+            "bin_start": "8",
+            "bin_end": "9",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 121
+          },
+          {
+            "bin_start": "10",
+            "bin_end": "10+",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 1446
+          },
+          {
+            "bin_start": "6",
+            "bin_end": "7",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 1114
+          },
+          {
+            "bin_start": "7",
+            "bin_end": "8",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 536
+          },
+          {
+            "bin_start": "5",
+            "bin_end": "6",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 1092
+          },
+          {
+            "bin_start": "2",
+            "bin_end": "3",
+            "good_connections_cnt": 2,
+            "bad_connections_cnt": 0
+          },
+          {
+            "bin_start": "1",
+            "bin_end": "2",
+            "good_connections_cnt": 17,
+            "bad_connections_cnt": 0
+          }
+        ],
+        "ttc_impacted_clients": [
+          {
+            "ttc_impacted_clients_group": "OS",
+            "ttc_impacted_clients_per_group": [
+              {
+                "name": "Linux",
+                "impacted_clients_count": 23
+              }
+            ],
+            "ttc_impacted_client_details": [
+              {
+                "name": "Linux",
+                "vendor_name": "Randomized MAC address",
+                "year": "Randomized MAC address",
+                "impacted_clients_count": 21,
+                "high_latency_connections": 1385,
+                "total_connections": 1385
+              },
+              {
+                "name": "Linux",
+                "vendor_name": "Raspberry Pi Trading Ltd",
+                "year": "2019",
+                "impacted_clients_count": 1,
+                "high_latency_connections": 1674,
+                "total_connections": 1708
+              },
+              {
+                "name": "Linux",
+                "vendor_name": "Intel Corporate",
+                "year": "2015",
+                "impacted_clients_count": 1,
+                "high_latency_connections": 2111,
+                "total_connections": 2130
+              }
+            ]
+          }
+        ],
+        "latency_per_stage": [
+          {
+            "connectivity_stage": "AUTH",
+            "latency_per_ssid": [
+              {
+                "ssid": "Bergren-11r-disable-3",
+                "total_connections": 3352,
+                "latency_good": 0,
+                "latency_bad": 4.77,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-4",
+                "total_connections": 1539,
+                "latency_good": 0,
+                "latency_bad": 4.76,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-6",
+                "total_connections": 124,
+                "latency_good": 0,
+                "latency_bad": 4.71,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-7",
+                "total_connections": 112,
+                "latency_good": 0,
+                "latency_bad": 4.75,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "Other impacted SSID(s)",
+                "total_connections": 96,
+                "latency_good": 0,
+                "latency_bad": 4.75,
+                "bad_latency_percent": 100,
+                "ssid_names": [
+                  "ROAM-AP-BERGREN_REC-8"
+                ]
+              }
+            ]
+          },
+          {
+            "connectivity_stage": "DHCP",
+            "latency_per_ssid": [
+              {
+                "ssid": "Bergren-11r-disable-3",
+                "total_connections": 3352,
+                "latency_good": 0,
+                "latency_bad": 12.23,
+                "bad_latency_percent": 51,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-4",
+                "total_connections": 1539,
+                "latency_good": 0,
+                "latency_bad": 2.26,
+                "bad_latency_percent": 36,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-6",
+                "total_connections": 124,
+                "latency_good": 0,
+                "latency_bad": 2.07,
+                "bad_latency_percent": 26,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-7",
+                "total_connections": 112,
+                "latency_good": 0,
+                "latency_bad": 2.87,
+                "bad_latency_percent": 74,
+                "ssid_names": []
+              },
+              {
+                "ssid": "Other impacted SSID(s)",
+                "total_connections": 96,
+                "latency_good": 0,
+                "latency_bad": 3.45,
+                "bad_latency_percent": 72,
+                "ssid_names": [
+                  "ROAM-AP-BERGREN_REC-8"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rollup_time_window": "7days",
+        "time_to_connect": [
+          {
+            "bin_start": "8",
+            "bin_end": "9",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 653
+          },
+          {
+            "bin_start": "4",
+            "bin_end": "5",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 6035
+          },
+          {
+            "bin_start": "3",
+            "bin_end": "4",
+            "good_connections_cnt": 43,
+            "bad_connections_cnt": 0
+          },
+          {
+            "bin_start": "1",
+            "bin_end": "2",
+            "good_connections_cnt": 338,
+            "bad_connections_cnt": 0
+          },
+          {
+            "bin_start": "6",
+            "bin_end": "7",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 12877
+          },
+          {
+            "bin_start": "2",
+            "bin_end": "3",
+            "good_connections_cnt": 134,
+            "bad_connections_cnt": 0
+          },
+          {
+            "bin_start": "9",
+            "bin_end": "10",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 584
+          },
+          {
+            "bin_start": "10",
+            "bin_end": "10+",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 10174
+          },
+          {
+            "bin_start": "7",
+            "bin_end": "8",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 4442
+          },
+          {
+            "bin_start": "5",
+            "bin_end": "6",
+            "good_connections_cnt": 0,
+            "bad_connections_cnt": 7268
+          },
+          {
+            "bin_start": "0",
+            "bin_end": "1",
+            "good_connections_cnt": 18,
+            "bad_connections_cnt": 0
+          }
+        ],
+        "ttc_impacted_clients": [
+          {
+            "ttc_impacted_clients_group": "OS",
+            "ttc_impacted_clients_per_group": [
+              {
+                "name": "Linux",
+                "impacted_clients_count": 24
+              }
+            ],
+            "ttc_impacted_client_details": [
+              {
+                "name": "Linux",
+                "vendor_name": "Intel Corporate",
+                "year": "2015",
+                "impacted_clients_count": 1,
+                "high_latency_connections": 15660,
+                "total_connections": 16146
+              },
+              {
+                "name": "Linux",
+                "vendor_name": "Raspberry Pi Trading Ltd",
+                "year": "2019",
+                "impacted_clients_count": 1,
+                "high_latency_connections": 17621,
+                "total_connections": 17667
+              },
+              {
+                "name": "Linux",
+                "vendor_name": "Randomized MAC address",
+                "year": "Randomized MAC address",
+                "impacted_clients_count": 22,
+                "high_latency_connections": 8752,
+                "total_connections": 8753
+              }
+            ]
+          }
+        ],
+        "latency_per_stage": [
+          {
+            "connectivity_stage": "AUTH",
+            "latency_per_ssid": [
+              {
+                "ssid": "Bergren-11r-disable-3",
+                "total_connections": 24704,
+                "latency_good": 0,
+                "latency_bad": 4.77,
+                "bad_latency_percent": 93,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-4",
+                "total_connections": 14576,
+                "latency_good": 0,
+                "latency_bad": 4.77,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC",
+                "total_connections": 2922,
+                "latency_good": 0,
+                "latency_bad": 4.77,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-6",
+                "total_connections": 124,
+                "latency_good": 0,
+                "latency_bad": 4.71,
+                "bad_latency_percent": 100,
+                "ssid_names": []
+              },
+              {
+                "ssid": "Other impacted SSID(s)",
+                "total_connections": 240,
+                "latency_good": 0,
+                "latency_bad": 3.18,
+                "bad_latency_percent": 87,
+                "ssid_names": [
+                  "ROAM-AP-BERGREN_REC-8",
+                  "11ax-WPA3-6Ghz-Bergren",
+                  "ROAM-AP-BERGREN_REC-7"
+                ]
+              }
+            ]
+          },
+          {
+            "connectivity_stage": "DHCP",
+            "latency_per_ssid": [
+              {
+                "ssid": "Bergren-11r-disable-3",
+                "total_connections": 24704,
+                "latency_good": 0,
+                "latency_bad": 12.22,
+                "bad_latency_percent": 48,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-4",
+                "total_connections": 14576,
+                "latency_good": 0,
+                "latency_bad": 2.24,
+                "bad_latency_percent": 36,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC",
+                "total_connections": 2922,
+                "latency_good": 0,
+                "latency_bad": 2.32,
+                "bad_latency_percent": 39,
+                "ssid_names": []
+              },
+              {
+                "ssid": "ROAM-AP-BERGREN_REC-6",
+                "total_connections": 124,
+                "latency_good": 0,
+                "latency_bad": 2.07,
+                "bad_latency_percent": 26,
+                "ssid_names": []
+              },
+              {
+                "ssid": "Other impacted SSID(s)",
+                "total_connections": 240,
+                "latency_good": 0,
+                "latency_bad": 3.95,
+                "bad_latency_percent": 76,
+                "ssid_names": [
+                  "ROAM-AP-BERGREN_REC-8",
+                  "11ax-WPA3-6Ghz-Bergren",
+                  "ROAM-AP-BERGREN_REC-7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schema_version": "v2",
+    "shard_attr": "8be5cb9a",
+    "site_id": "-1",
+    "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+    "timestamp": 1725509312000
+  }

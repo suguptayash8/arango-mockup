@@ -1,0 +1,175 @@
+{
+  "_key": "8be5cb9a:15043298672",
+  "_id": "aiops_optimizer/8be5cb9a:15043298672",
+  "_rev": "_iYIV-dS--_",
+  "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_-1_704_188732_0_1725009691116",
+  "analyzer_type_id": "704",
+  "available_firmware_recommendation": [
+    {
+      "recommended_firmware": "Recommended Firmware is 10.4.1.2. Select this firmware version from the dropdown in Central Classic to apply the recommended upgrade."
+    }
+  ],
+  "created": 1725009691116,
+  "description": "New firmware recommendation available for 24 gateways. These upgrades provide new features and bug fixes.",
+  "firmware_recommendation_summary": [
+    {
+      "model": "A9004",
+      "current_firmware": "10.4.1.1_89267",
+      "recommended_firmware": "10.4.1.2",
+      "no_of_devices": 1,
+      "recommendation_reason": "Firmware with bug fixes available"
+    },
+    {
+      "model": "A9004",
+      "current_firmware": "10.4.0.2_87241",
+      "recommended_firmware": "10.4.1.2",
+      "no_of_devices": 22,
+      "recommendation_reason": "Current firmware has security advisory"
+    },
+    {
+      "model": "A7240XM",
+      "current_firmware": "10.4.0.2_87241",
+      "recommended_firmware": "10.4.1.2",
+      "no_of_devices": 1,
+      "recommendation_reason": "Current firmware has security advisory"
+    }
+  ],
+  "impacted_clients_per_site": [
+    {}
+  ],
+  "impacted_devices_per_site": [
+    {
+      "name": "Nicoya",
+      "count": 1
+    },
+    {
+      "name": "SJ DC",
+      "count": 1
+    },
+    {
+      "name": "Perez Zeledon",
+      "count": 1
+    },
+    {
+      "name": "Heredia",
+      "count": 1
+    },
+    {
+      "name": "Cañas",
+      "count": 1
+    },
+    {
+      "name": "Liberia",
+      "count": 1
+    },
+    {
+      "name": "Limon",
+      "count": 1
+    },
+    {
+      "name": "Torre Mercedes",
+      "count": 1
+    },
+    {
+      "name": "Buenos Aires",
+      "count": 1
+    },
+    {
+      "name": "Desamparados",
+      "count": 1
+    },
+    {
+      "name": "Plaza Real",
+      "count": 1
+    },
+    {
+      "name": "Ciudad Neilly",
+      "count": 1
+    },
+    {
+      "name": "San Carlos",
+      "count": 1
+    },
+    {
+      "name": "Quepos",
+      "count": 1
+    },
+    {
+      "name": "San Ramon",
+      "count": 1
+    },
+    {
+      "name": "Santa Cruz",
+      "count": 1
+    },
+    {
+      "name": "Camara de Industrias",
+      "count": 1
+    },
+    {
+      "name": "Turrialba",
+      "count": 1
+    },
+    {
+      "name": "Guapiles",
+      "count": 1
+    },
+    {
+      "name": "Cartago",
+      "count": 1
+    },
+    {
+      "name": "Escazu",
+      "count": 1
+    },
+    {
+      "name": "Guadalupe",
+      "count": 1
+    },
+    {
+      "name": "Colypro",
+      "count": 1
+    },
+    {
+      "name": "Puntarenas",
+      "count": 1
+    }
+  ],
+  "impacted_sites": [
+    "Plaza Real",
+    "Liberia",
+    "Guapiles",
+    "Camara de Industrias",
+    "Torre Mercedes",
+    "Turrialba",
+    "Cartago",
+    "Cañas",
+    "San Ramon",
+    "Santa Cruz",
+    "Nicoya",
+    "Limon",
+    "SJ DC",
+    "Puntarenas",
+    "Guadalupe",
+    "Buenos Aires",
+    "Escazu",
+    "Colypro",
+    "Quepos",
+    "San Carlos",
+    "Perez Zeledon",
+    "Desamparados",
+    "Heredia",
+    "Ciudad Neilly"
+  ],
+  "name": "Gateway Firmware Recommendation Available",
+  "no_of_devices_w_recommendation": 24,
+  "no_of_total_devices": 24,
+  "prod_cluster": "jedi",
+  "purge_after": 1727774491,
+  "schema_version": "v1",
+  "shard_attr": "8be5cb9a",
+  "site": "None",
+  "site_id": "-1",
+  "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+  "timestamp": 1724979600000
+}

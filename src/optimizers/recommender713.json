@@ -1,0 +1,287 @@
+{
+  "_key": "8be5cb9a:15032004803",
+  "_id": "aiops_optimizer/8be5cb9a:15032004803",
+  "_rev": "_iYIVASS--G",
+  "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_-1_713_188757_0_1725009692996",
+  "analyzer_type_id": "713",
+  "created": 1725009692996,
+  "description": "Power Save recommendations available for 1 site(s) that can provide up to 25% energy savings without impacting network coverage. Power Save mode is automatically turned on during low-activity hours.",
+  "impacted_clients_per_site": [
+    {
+      "name": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "count": 20
+    }
+  ],
+  "impacted_devices_per_site": [
+    {
+      "name": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "count": 20
+    }
+  ],
+  "impacted_sites": [
+    {
+      "name": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200"
+    }
+  ],
+  "name": "Power Save Recommendation for Access Points",
+  "no_of_sites_w_recommendation": 1,
+  "percentage_of_energy_savings": 25,
+  "power_save_recommendation_for_sites_actions": [
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y0GX",
+      "ap_names_in_power_save": "SJQ01HPEAP5001"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y12Y",
+      "ap_names_in_power_save": "SJQ01HPEAP5002"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y13G",
+      "ap_names_in_power_save": "SJQ01HPEAP5004"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y13J",
+      "ap_names_in_power_save": "SJQ01HPEAP5005"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y13Q",
+      "ap_names_in_power_save": "SJQ01HPEAP5006"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y13Z",
+      "ap_names_in_power_save": "SJQ01HPEAP5010"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y142",
+      "ap_names_in_power_save": "SJQ01HPEAP5012"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y143",
+      "ap_names_in_power_save": "SJQ01HPEAP5013"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y144",
+      "ap_names_in_power_save": "SJQ01HPEAP5014"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y14F",
+      "ap_names_in_power_save": "SJQ01HPEAP5015"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y14S",
+      "ap_names_in_power_save": "SJQ01HPEAP5016"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y150",
+      "ap_names_in_power_save": "SJQ01HPEAP5018"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y15B",
+      "ap_names_in_power_save": "SJQ01HPEAP5019"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y15K",
+      "ap_names_in_power_save": "SJQ01HPEAP5020"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y15N",
+      "ap_names_in_power_save": "SJQ01HPEAP5022"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y15R",
+      "ap_names_in_power_save": "SJQ01HPEAP5023"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y160",
+      "ap_names_in_power_save": "SJQ01HPEAP5025"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y1DQ",
+      "ap_names_in_power_save": "SJQ01HPEAP5027"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y1DT",
+      "ap_names_in_power_save": "SJQ01HPEAP5028"
+    },
+    {
+      "site": "CNX-AIOPS-Demo1",
+      "site_id": "2058055200",
+      "power_save_weekday_schedule": "05:00 - 14:00 (UTC +0:00)",
+      "power_save_weekend_schedule": "00:00 - 23:59 (UTC +0:00)",
+      "total_no_of_devices_in_site": 30,
+      "no_of_devices_in_power_save": 20,
+      "annual_estimated_energy_savings": 819,
+      "recommendation_eligibility": "Available",
+      "ap_serials_in_power_save": "VNLSK9Y1F8",
+      "ap_names_in_power_save": "SJQ01HPEAP5029"
+    }
+  ],
+  "power_save_recommendation_summary": {
+    "no_of_sites_w_recommendation": 1,
+    "avg_power_save_hours_per_week": 93,
+    "perc_of_access_points_in_power_save_for_eligible_sites": 66,
+    "expected_annual_power_savings": 819
+  },
+  "prod_cluster": "jedi",
+  "purge_after": 1727774492,
+  "schema_version": "v1",
+  "shard_attr": "8be5cb9a",
+  "site_id": "-1",
+  "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+  "timestamp": 1724979600000
+}

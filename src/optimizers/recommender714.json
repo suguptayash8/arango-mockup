@@ -1,0 +1,67 @@
+{
+  "_key": "8be5cb9a:15014284441",
+  "_id": "aiops_optimizer/8be5cb9a:15014284441",
+  "_rev": "_iXzvWre--_",
+  "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_-1_714_185754_0_1724923339471",
+  "analyzer_type_id": "714",
+  "config_6g_recommendation_summary": [
+    {
+      "ssid": "Kumla-WiFi",
+      "group_name": "Kumla-Default",
+      "current_bandwidth": "40",
+      "recommended_bandwidth": "160"
+    }
+  ],
+  "config_6g_wlan_performance": [
+    {
+      "ssid": "Kumla-WiFi",
+      "current_tx_rate": 399,
+      "projected_tx_rate": 1260,
+      "gain": 215,
+      "wlan_hover_params": [
+        {
+          "group_name": "Kumla-Default",
+          "current_band_bandwidth": "5G @ 40MHz",
+          "recommended_band_bandwidth": "6G @ 160MHz",
+          "current_band_bandwidth_txrate": 399,
+          "recommended_band_bandwidth_txrate": 1260
+        }
+      ]
+    }
+  ],
+  "created": 1724923339471,
+  "description": "Improve average transmission rate by up to 215% on your SSID(s) by enabling 6 GHz radio and setting bandwidth to 160 (MHz).",
+  "impacted_clients_per_site": [
+    {
+      "name": "Sörbyhallen",
+      "count": 5
+    },
+    {
+      "name": "Tallängen lillskola",
+      "count": 7
+    }
+  ],
+  "impacted_devices_per_site": [
+    {
+      "name": "Sörbyhallen",
+      "count": 1
+    },
+    {
+      "name": "Tallängen lillskola",
+      "count": 2
+    }
+  ],
+  "impacted_sites": [
+    "Tallängen lillskola",
+    "Sörbyhallen"
+  ],
+  "name": "Enable 6 GHz Radio with Optimal Bandwidth to Improve WLAN Performance",
+  "prod_cluster": "jedi",
+  "purge_after": 1727688139,
+  "schema_version": "v1",
+  "shard_attr": "8be5cb9a",
+  "site": "CNX-AIOps-Demo",
+  "site_id": "-1",
+  "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+  "timestamp": 1724922393372
+}

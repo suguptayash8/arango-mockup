@@ -1,1219 +1,1220 @@
-[
-    {
-        "_key": "8be5cb9a:7859133287",
-        "_id": "aiops_optimizer/8be5cb9a:7859133287",
-        "_rev": "_iFZVBA6--A",
-        "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_972452446_723_39751_0_1719980723236",
-        "analyzer_type_id": "723",
-        "created": 1719980723236,
-        "description": "Improve Association Failures by up to 100% on 1 SSIDs by increasing Max Client Config",
-        "impacted_devices_per_site": [
-            {
-                "name": "CNX-AIOps-Demo",
-                "count": 1
-            }
+{
+    "_key": "8be5cb9a:7859133287",
+    "_id": "aiops_optimizer/8be5cb9a:7859133287",
+    "_rev": "_iFZVBA6--A",
+    "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_972452446_723_39751_0_1719980723236",
+    "analyzer_type_id": "723",
+    "created": 1719980723236,
+    "description": "Improve Association Failures by up to 100% on 1 SSIDs by increasing Max Client Config",
+    "impacted_devices_per_site": [
+      {
+        "name": "CNX-AIOps-Demo",
+        "count": 1
+      }
+    ],
+    "impacted_sites": [
+      {
+        "name": "CNX-AIOps-Demo",
+        "site_id": "403"
+      }
+    ],
+    "name": "Assoc max client threshold config",
+    "prod_cluster": "jedi",
+    "purge_after": 1722745523,
+    "rollup": [
+      {
+        "rollup_ssid": "Bergren-NI-Test-ASSOC-01",
+        "client_count_timeseries": [
+          {
+            "ts_hour": 1719828000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719543600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719730800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719561600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719838800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719784800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719550800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719835200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719586800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719820800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719810000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719781200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719849600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719738000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719648000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719770400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719583200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719799200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719698400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719637200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719774000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719723600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719666000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719576000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719633600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719651600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719874800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719680400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719640800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719673200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719824400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719691200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719705600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719626400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719871200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719608400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719604800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 1,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719712800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719853200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719662400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719748800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719655200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719709200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719594000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719716400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719615600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719579600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719864000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719604800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719802800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719856800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719568800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719813600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719759600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719756000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719630000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 5,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719831600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719694800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719752400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719658800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719763200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719766800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719684000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719597600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719572400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719644400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719745200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719792000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719702000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719590400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719619200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719554400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719601200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719547200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719777600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719817200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719846000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719687600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719741600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719622800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719558000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719565200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719727200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719842400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719788400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719734400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719795600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719860400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719669600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719676800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719720000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719867600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719612000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          }
         ],
-        "impacted_sites": [
-            "CNX-AIOps-Demo"
+        "ap_association_stats": [
+          {
+            "ap_serial": "CNJJKD55Q1",
+            "total_fail_assocs": 178675,
+            "total_succ_assocs": 354,
+            "current_cfg": "3"
+          }
         ],
-        "name": "Assoc max client threshold config",
-        "prod_cluster": "jedi",
-        "purge_after": 1722745523,
-        "rollup": [
-            {
-                "rollup_ssid": "Bergren-NI-Test-ASSOC-01",
-                "client_count_timeseries": [
-                    {
-                        "ts_hour": 1719828000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719543600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719730800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719561600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719838800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719784800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719550800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719835200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719586800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719820800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719810000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719781200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719849600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719738000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719648000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719770400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719583200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719799200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719698400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719637200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719774000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719723600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719666000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719576000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719633600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719651600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719874800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719680400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719640800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719673200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719824400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719691200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719705600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719626400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719871200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719608400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719604800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 1,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719712800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719853200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719662400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719748800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719655200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719709200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719594000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719716400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719615600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719579600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719864000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719604800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719802800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719856800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719568800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719813600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719759600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719756000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719630000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 5,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719831600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719694800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719752400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719658800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719763200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719766800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719684000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719597600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719572400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719644400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719745200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719792000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719702000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719590400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719619200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719554400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719601200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719547200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719777600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719817200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719846000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719687600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719741600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719622800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719558000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719565200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719727200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719842400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719788400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719734400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719795600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719860400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719669600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719676800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719720000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719867600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719612000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    }
-                ],
-                "ap_association_stats": [
-                    {
-                        "ap_serial": "CNJJKD55Q1",
-                        "total_fail_assocs": 178675,
-                        "total_succ_assocs": 354,
-                        "current_cfg": "3"
-                    }
-                ],
-                "rollup_time_window": "7days"
-            },
-            {
-                "rollup_ssid": "Bergren-NI-Test-ASSOC-01",
-                "client_count_timeseries": [
-                    {
-                        "ts_hour": 1719828000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719838800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719835200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719820800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719810000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719849600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 7,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719799200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719874800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719824400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719871200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719853200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719864000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719802800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719856800000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719813600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719831600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719792000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719817200000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719846000000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719842400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719795600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719860400000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    },
-                    {
-                        "ts_hour": 1719867600000,
-                        "active_clients": 3,
-                        "impacted_aps": 1,
-                        "current_cfg": 3,
-                        "recommended_cfg": 16,
-                        "clients_above_current_threshold": 4,
-                        "clients_above_recommended_threshold": 0,
-                        "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
-                    }
-                ],
-                "ap_association_stats": [
-                    {
-                        "ap_serial": "CNJJKD55Q1",
-                        "total_fail_assocs": 20546,
-                        "total_succ_assocs": 82,
-                        "current_cfg": "3"
-                    }
-                ],
-                "rollup_time_window": "24hrs"
-            }
+        "rollup_time_window": "7days"
+      },
+      {
+        "rollup_ssid": "Bergren-NI-Test-ASSOC-01",
+        "client_count_timeseries": [
+          {
+            "ts_hour": 1719828000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719838800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719835200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719820800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719810000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719849600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 7,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719799200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719874800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719824400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719871200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719853200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719864000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719802800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719856800000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719813600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719831600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719792000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719817200000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719846000000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719842400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719795600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719860400000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          },
+          {
+            "ts_hour": 1719867600000,
+            "active_clients": 3,
+            "impacted_aps": 1,
+            "current_cfg": 3,
+            "recommended_cfg": 16,
+            "clients_above_current_threshold": 4,
+            "clients_above_recommended_threshold": 0,
+            "recommendation_text": "Increase the 'Max Client Config' from 3 to 16"
+          }
         ],
-        "schema_version": "v2",
-        "shard_attr": "8be5cb9a",
-        "site": "CNX-AIOps-Demo",
-        "site_id": "972452446",
-        "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
-        "timestamp": 1719979982969
-    }
-]
+        "ap_association_stats": [
+          {
+            "ap_serial": "CNJJKD55Q1",
+            "total_fail_assocs": 20546,
+            "total_succ_assocs": 82,
+            "current_cfg": "3"
+          }
+        ],
+        "rollup_time_window": "24hrs"
+      }
+    ],
+    "schema_version": "v2",
+    "shard_attr": "8be5cb9a",
+    "site": "CNX-AIOps-Demo",
+    "site_id": "972452446",
+    "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+    "timestamp": 1719979982969
+  }

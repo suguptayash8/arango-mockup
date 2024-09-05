@@ -1,15 +1,52 @@
-[
+{
+  "_key": "5001097:15004542680",
+  "_id": "aiops_optimizer/5001097:15004542680",
+  "_rev": "_iXyDLuC---",
+  "analyzer_id": "5001097_-1_712_11632_1_1724916250341",
+  "analyzer_type_id": "712",
+  "created": 1724916250348,
+  "description": "Wi-Fi security will improve for up to 66% of clients for CNX_INTERNAL2-OPTIMISERS by enabling WPA3.",
+  "iap_config_wpa3_capable_clients": [
     {
-    "_key": "52d5f810:1314651358", 
-    "_id": "aiops_optimizer/52d5f810:1314651358", 
-    "_rev": "_h5ztG8S--L",
-     "analyzer_id": "52d5f8103c0711ee93a83e466bf268e7_-1_712_6104_0_1716870128604", 
-     "analyzer_type_id": "712", 
-     "created": 1716870128604, 
-     "description": "WiFi security will improve for up to 37% of Clients by enabling WPA3",
-     "iap_config_wpa3_capable_clients": [{"ssid": "Virus_IOT", "percent_wpa3_capable_clients": 13.64, "percent_wpa2_bc_clients": 86.36, "percent_noninterop_clients": 0, "num_wpa3_capable_clients": 3, "num_wpa2_bc_clients": 19, "num_noninterop_clients": 0}, {"ssid": "Jibran", "percent_wpa3_capable_clients": 37.93, "percent_wpa2_bc_clients": 58.62, "percent_noninterop_clients": 3.45, "num_wpa3_capable_clients": 11, "num_wpa2_bc_clients": 17, "num_noninterop_clients": 1}, {"ssid": "Cisco", "percent_wpa3_capable_clients": 23.81, "percent_wpa2_bc_clients": 76.19, "percent_noninterop_clients": 0, "num_wpa3_capable_clients": 5, "num_wpa2_bc_clients": 16, "num_noninterop_clients": 0}], 
-     "iap_config_wpa3_non_interop_clients": [{"ssid": "Cisco", "ip_address": "10.21.37.227", "client_year": "2019", "client_type": "Android", "client_mac": "b8:8a:60:87:44:90", "client_name": "client_1", "client_vendor": "Amazon Technologies Inc."}], "iap_config_wpa3_recommendations": [{"ssid": "Virus_IOT", "current_auth_mode": "wpa2-psk-aes", "recommended_auth_mode": "wpa3-sae-aes"}, {"ssid": "Jibran", "current_auth_mode": "wpa2-psk-aes", "recommended_auth_mode": "wpa3-sae-aes"}, {"ssid": "Cisco", "current_auth_mode": "wpa2-psk-aes", "recommended_auth_mode": "wpa3-sae-aes"}],
-      "impacted_clients_per_site": [{"name": "Jibran_Home", "count": 20}], 
-      "impacted_devices_per_site": [{"name": "Jibran_Home", "count": 5}], "impacted_sites": ["Jibran_Home"], "name": "Enable WPA3 for Better Security", "prod_cluster": "afron", "purge_after": 1719634928, "schema_version": "v0", "shard_attr": "52d5f810", "site": "NONE", "site_id": "-1", "tenant_id": "52d5f8103c0711ee93a83e466bf268e7", "timestamp": 1716854400000
+      "ssid": "CNX_INTERNAL2-OPTIMISERS",
+      "percent_wpa3_capable_clients": 66.67,
+      "percent_wpa2_bc_clients": 33.33,
+      "percent_noninterop_clients": 0,
+      "num_wpa3_capable_clients": 2,
+      "num_wpa2_bc_clients": 1,
+      "num_noninterop_clients": 0
     }
-]
+  ],
+  "iap_config_wpa3_non_interop_clients": [],
+  "iap_config_wpa3_recommendations": [
+    {
+      "ssid": "CNX_INTERNAL2-OPTIMISERS",
+      "current_auth_mode": "wpa2-psk-aes",
+      "recommended_auth_mode": "wpa3-sae-aes"
+    }
+  ],
+  "impacted_clients_per_site": [
+    {
+      "name": "PK-SITE",
+      "count": 3
+    }
+  ],
+  "impacted_devices_per_site": [
+    {
+      "name": "PK-SITE",
+      "count": 1
+    }
+  ],
+  "impacted_sites": [
+    "PK-SITE"
+  ],
+  "name": "Enable WPA3 for Better Security",
+  "prod_cluster": "internal2",
+  "purge_after": 1727681050,
+  "schema_version": "v1",
+  "shard_attr": "5001097",
+  "site": "NONE",
+  "site_id": "-1",
+  "tenant_id": "5001097",
+  "timestamp": 1724889601000
+}

@@ -1,0 +1,89 @@
+{
+  "_key": "8be5cb9a:15012528390",
+  "_id": "aiops_optimizer/8be5cb9a:15012528390",
+  "_rev": "_iXzv04m--A",
+  "analyzer_id": "8be5cb9ac96e11eeacd92a8810d0e22b_-1_711_185757_0_1724923370401",
+  "analyzer_type_id": "711",
+  "created": 1724923370401,
+  "description": "Improve average transmission rate by up to 16% on your WLANs by enabling WiFi 6",
+  "iap_config_11ax_client_os_model_performance": [
+    {
+      "os_type": "Apple iPhone",
+      "current_tx_rate": 247.06,
+      "projected_tx_rate": 311.54,
+      "gain": 26
+    },
+    {
+      "os_type": "Apple iOS Device",
+      "current_tx_rate": 172.57,
+      "projected_tx_rate": 210.09,
+      "gain": 21
+    },
+    {
+      "os_type": "Windows 8/10/11",
+      "current_tx_rate": 321.92,
+      "projected_tx_rate": 367.46,
+      "gain": 14
+    },
+    {
+      "os_type": "BTICINO SPA",
+      "current_tx_rate": 83.17,
+      "projected_tx_rate": 108.48,
+      "gain": 30
+    },
+    {
+      "os_type": "Mac OS",
+      "current_tx_rate": 328.85,
+      "projected_tx_rate": 373.18,
+      "gain": 13
+    }
+  ],
+  "iap_config_11ax_incompatible_clients": [],
+  "iap_config_11ax_wlan_performance": [
+    {
+      "ssid": "Elx",
+      "current_tx_rate": 274.67,
+      "projected_tx_rate": 313.82,
+      "gain": 14
+    },
+    {
+      "ssid": "cefegenlab",
+      "current_tx_rate": 316.45,
+      "projected_tx_rate": 369.86,
+      "gain": 16
+    }
+  ],
+  "impacted_clients_per_site": [
+    {
+      "name": "Casa",
+      "count": 13
+    },
+    {
+      "name": "Cefegen",
+      "count": 1
+    }
+  ],
+  "impacted_devices_per_site": [
+    {
+      "name": "Casa",
+      "count": 4
+    },
+    {
+      "name": "Cefegen",
+      "count": 1
+    }
+  ],
+  "impacted_sites": [
+    "Cefegen",
+    "Casa"
+  ],
+  "name": "Enable Wi-Fi 6 to Improve WLAN Performance",
+  "prod_cluster": "jedi",
+  "purge_after": 1727688170,
+  "schema_version": "v1",
+  "shard_attr": "8be5cb9a",
+  "site": "CNX-AIOps-Demo",
+  "site_id": "-1",
+  "tenant_id": "8be5cb9ac96e11eeacd92a8810d0e22b",
+  "timestamp": 1724922393372
+}

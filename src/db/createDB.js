@@ -13,7 +13,7 @@ var collection;
        res = await db.createDatabase('gvtstatedb');
     }
 
-    console.log("is db created: {}" , res);
+    //console.log("is db created: {}" , res);
     collection = await db.collection('aiops_optimizer');
    
     // create the collection if it doesn't exist
@@ -34,7 +34,7 @@ var collection;
 
     try{
       const res = await collection.save(doc); 
-      console.log(res);
+      //console.log(res);
     }catch(e){
 
     }
