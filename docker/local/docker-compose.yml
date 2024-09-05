@@ -9,8 +9,40 @@ services:
     ports:
       - "8529:8529"
     networks:
-      - arangodb-net
+      - app-network
+
+  node-app:
+    build:
+      context: ../../node
+      dockerfile: dockerfile.node
+    container_name: my-node-container  
+    ports:
+     - "8060:8060"
+    volumes:
+      - ../../node:/app
+      - /app/node_modules
+    networks:
+      - app-network
+    depends_on:
+      - arangodb  
+
+
+  react-app:
+    build:
+      context: ../../ui/arango-mockup-ui
+      dockerfile: dockerfile.ui
+    container_name: my-react-container  
+    ports:
+     - "3000:3000"
+    volumes:
+      - ../../ui/arango-mockup-ui:/app
+      - /app/node_modules
+    networks:
+      - app-network
+    depends_on:
+      - node-app
+            
 
 networks:
-  arangodb-net:
+  app-network:
     driver: bridge
