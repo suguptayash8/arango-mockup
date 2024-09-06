@@ -1,5 +1,6 @@
 const {Database, aql} = require('arangojs');
 const db = new Database('http://arangodb:8529');
+//const db = new Database('http://127.0.0.1:8529');
 var isBult = false;
 var collection;
 

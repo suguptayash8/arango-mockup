@@ -10,7 +10,7 @@ const loadIntialData = (function(){
     let tenantSiteMap = {}
     
 
-    let siteIds = sites.slice(0, 50);
+    let siteIds = sites.slice(0, 100);
     let tenantIds = tenants.slice(0,10);
 
     tenantIds.forEach(id => {
@@ -43,11 +43,11 @@ let generateSiteLevelAnalyzers = async function(){
             }
 
             let sharedAttr = getShardAttr(tid);
-            let _key = `${sharedAttr}:${generateRandomNumber(7000000000,7999999999)}`;
-            let _id = `aiops_optimizer/${_key}`;
 
             for(let siteId of tenantSitedata[tid]){
-                let analyzer_id = `${tid}_${siteId}_${analyzer}_39751_0_${recommenderObjs.created}` ;
+                let _key = `${sharedAttr}:${generateRandomNumber(7000000000,7999999999)}`;
+                let analyzer_id = `${tid}_${siteId}_${analyzer}_39751_0_${recommenderObjs.created}`;
+                let _id = `aiops_optimizer/${_key}`;
 
                 let override = {
                     "_key": _key,
